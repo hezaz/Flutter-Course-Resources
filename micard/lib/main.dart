@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
               ),
               CircleAvatar(
                 radius: 60,
-                //backgroundColor: Colors.white,
                 backgroundImage: AssetImage('images/logo.png'),
               ),
               SizedBox(
@@ -37,6 +36,7 @@ class MyApp extends StatelessWidget {
                 'Early Eyes',
                 style: TextStyle(
                   fontSize: 25,
+                  fontFamily: 'Pacifico',
                   color: Colors.white,
                 ),
               ),
