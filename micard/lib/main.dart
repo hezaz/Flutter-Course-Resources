@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               ),
               CircleAvatar(
                 radius: 60,
-                backgroundColor: Colors.white,
+                //backgroundColor: Colors.white,
                 backgroundImage: AssetImage('images/logo.png'),
               ),
               SizedBox(
@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(
                 width: 100,
-                height: 10,
+                height: 60,
               ),
               Container(
                 width: 300,
