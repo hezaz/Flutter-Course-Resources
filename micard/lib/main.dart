@@ -62,39 +62,48 @@ class MyApp extends StatelessWidget {
                 width: 100,
                 height: 60,
               ),
-              Container(
-                width: 300,
-                height: 30,
-                color: Colors.white,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      '+33 6 74 57 07 81',
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10,
+                  horizontal: 35,
+                ),
+                child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    title: Text(
+                      '+ 33 6 74 57 07 81',
                       style: TextStyle(
-                        fontSize: 20,
                         color: Colors.teal,
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
-                  ],
+
                 ),
               ),
               SizedBox(
                 height: 20,
               ),
-              Container(
-                width: 300,
-                height: 30,
-                color: Colors.white,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('EarlyEyes2022@gmail.com',
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.teal,
-                        )),
-                  ],
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10,
+                  horizontal: 35,
+                ),
+                child: ListTile(
+                    leading: Icon(
+                      Icons.mail,
+                      color: Colors.teal,
+                    ),
+                    title: Text(
+                      'EarlyEyes2022@gmail.com',
+                      style: TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.teal,
+                      ),
+                    ),
                 ),
               ),
             ],
